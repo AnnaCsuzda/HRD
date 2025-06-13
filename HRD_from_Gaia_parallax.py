@@ -54,8 +54,8 @@ M0 = 4.83                      # Absolute magnitude of the Sun
 
 L_L0 = []
 
-L = L0*(10**(M0-M1/2.512))     # Luminosity of the stars
-L_L0 = np.array(np.log10(L/L0))
+L = L0*(10**(M0-M1/2.512))      # Luminosity of the stars in relation to the Sun's
+L_L0 = np.array(np.log10(L/L0)) # Put the logarithm of the calculated values into an array
 
 # Data visualization
 plt.figure(figsize = (14, 14))
