@@ -50,7 +50,7 @@ M = m - 5 * np.log10(d) + 5 # Distance modulus
 
 # Calculate luminosity 
 L0 = 3.0128*10**28 # Sun's luminosity in Watt
-M0 = 4.38          # Absolute magnitude of the Sun
+M0 = 4.83          # Absolute magnitude of the Sun
 
 L_L0 = []
 
